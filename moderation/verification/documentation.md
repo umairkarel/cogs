@@ -65,4 +65,4 @@ Removes an existing verification.
 
 Argument | Required            | Description
 ---------|---------------------|------------
-role     | :heavy_check_mark:  | The Verification Role
+role     | :heavy_check_mark:  | The verification role
