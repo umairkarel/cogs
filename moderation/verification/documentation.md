@@ -40,7 +40,7 @@ delay    | :heavy_check_mark:  | The Time in Seconds
 ## password
 
 
-Sets the *Secret* Password you'll need to Verify.
+Sets the *secret* password the user will need to verify.
 
 ```css
 .verification [password|p] <password>
