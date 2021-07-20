@@ -57,7 +57,7 @@ password | :heavy_check_mark:  | The password as string
 ## remove
 
 
-Removes an existing Verification.
+Removes an existing verification.
 
 ```css
 .verification [remove|r|-] <role>
