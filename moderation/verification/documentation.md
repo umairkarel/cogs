@@ -48,7 +48,7 @@ Sets the *secret* password the user will need to verify.
 
 Argument | Required            | Description
 ---------|---------------------|------------
-password | :heavy_check_mark:  | The Password as string
+password | :heavy_check_mark:  | The password as string
 
 !!! note
     The password has a max-length of 256 characters.
