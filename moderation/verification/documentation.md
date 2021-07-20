@@ -2,7 +2,9 @@
 
 This Cog is used to add a Verification System.
 
+
 ## add
+
 
 With the `add` subcommand you can a Verification Role.
 You can set `reverse` to `true` then the Role will get removed from the user and not added.
@@ -17,9 +19,12 @@ role     | :heavy_check_mark:  | The Verification Role
 reverse  |                     | The Role assignment will be reversed => Role will get removed
 
 Required Permissions:
+
 - `settings.change_prefix`
 
+
 ## delay
+
 
 Set the Time you have to be on the Server until you can Verify.
 
@@ -31,7 +36,9 @@ Argument | Required            | Description
 ---------|---------------------|------------
 delay    | :heavy_check_mark:  | The Time in Seconds
 
+
 ## password
+
 
 Sets the *Secret* Password you'll need to Verify.
 
@@ -46,7 +53,9 @@ password | :heavy_check_mark:  | The Password as string
 !!! note
     Password has a Max-Length of 256 Chars
 
+
 ## remove
+
 
 Removes an existing Verification.
 
