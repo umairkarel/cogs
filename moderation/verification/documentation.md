@@ -51,7 +51,7 @@ Argument | Required            | Description
 password | :heavy_check_mark:  | The Password as string
 
 !!! note
-    Password has a Max-Length of 256 Chars
+    The password has a max-length of 256 characters.
 
 
 ## remove
