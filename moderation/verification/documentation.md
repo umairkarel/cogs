@@ -16,7 +16,7 @@ If you set `reverse` to `true`, the role will be removed from the user instead o
 Argument | Required            | Description
 ---------|---------------------|------------
 role     | :heavy_check_mark:  | The verification role
-reverse  |                     | The Role assignment will be reversed => Role will get removed
+reverse  |                     | The role assignment will be reversed => role will be removed
 
 Required Permissions:
 
