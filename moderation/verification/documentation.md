@@ -7,7 +7,7 @@ This Cog is used to add a verification system.
 
 
 With the `add` subcommand you can add a verification role.
-You can set `reverse` to `true` then the Role will get removed from the user and not added.
+If you set `reverse` to `true`, the role will be removed from the user instead of added.
 
 ```css
 .verification [add|a|+] <role> [reverse=False]
