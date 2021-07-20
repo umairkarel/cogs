@@ -1,6 +1,6 @@
 # Verification
 
-This Cog is used to add a Verification System.
+This Cog is used to add a verification system.
 
 
 ## add
