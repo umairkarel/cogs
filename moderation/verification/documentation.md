@@ -18,7 +18,7 @@ Argument | Required            | Description
 role     | :heavy_check_mark:  | The verification role
 reverse  |                     | The role assignment will be reversed => role will be removed
 
-Required Permissions:
+Required permissions:
 
 - `settings.change_prefix`
 
