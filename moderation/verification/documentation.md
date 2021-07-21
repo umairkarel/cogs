@@ -26,7 +26,7 @@ Required permissions:
 ## delay
 
 
-Set the Time you have to be on the Server until you can Verify.
+Set the time a user has to be on the server until they can verify.
 
 ```css
 .verification [delay|d] <seconds>
