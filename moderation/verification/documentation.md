@@ -34,7 +34,7 @@ Set the Time you have to be on the Server until you can Verify.
 
 Argument | Required            | Description
 ---------|---------------------|------------
-delay    | :heavy_check_mark:  | The Time in Seconds
+delay    | :heavy_check_mark:  | The time in seconds
 
 
 ## password
