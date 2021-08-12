@@ -32,12 +32,13 @@ class MediaOnlyChannel(db.Base):
     @staticmethod
     async def stream() -> AsyncIterable[int]:
         row: MediaOnlyChannel
-        tr = redis.multi_exec()
-        async for row in await db.stream(select(MediaOnlyChannel)):
-            channel = row.channel
-            tr.setex(f"mediaonly:channel={channel}", CACHE_TTL, 1)
-            yield channel
-        await tr.execute()
+        async with redis.pipeline() as pipe:
+            async for row in await db.stream(select(MediaOnlyChannel)):
+                channel = row.channel
+                await pipe.setex(f"mediaonly:channel={channel}", CACHE_TTL, 1)
+                yield channel
+
+            await pipe.execute()
 
     @staticmethod
     async def remove(channel: int):

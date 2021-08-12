@@ -34,10 +34,10 @@ class SpamDetectionCog(Cog, name="Spam Detection"):
             return
 
         ts = int(time.time() * 1000)
-        await redis.zremrangebyscore(key := f"channel_hops:user={member.id}", max=ts - 60 * 1000)
-        await redis.zadd(key, ts, ts)
+        await redis.zremrangebyscore(key := f"channel_hops:user={member.id}", "-inf", ts - 60 * 1000)
+        await redis.zadd(key, {str(ts): ts})
         await redis.expire(key, 60)
-        hops: int = await redis.zcount(key)
+        hops: int = await redis.zcount(key, "-inf", "+inf")
 
         if hops <= max_hops:
             return
