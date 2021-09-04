@@ -209,6 +209,7 @@ class PollsCog(Cog, name="Polls"):
                 pass
 
     @commands.command(aliases=["tyn"])
+    @PollsPermission.team_poll.check
     @guild_only()
     async def team_yesno(self, ctx: Context, *, text: str):
         """
@@ -243,7 +244,9 @@ class PollOption:
         elif (unicode_emoji := emoji_candidate) in emoji_to_name:
             self.emoji = unicode_emoji
             self.option = text.strip()
-        elif unicode_emoji := name_to_emoji.get(emoji_candidate.replace(":", "")):
+        elif (match := re.match(r"^:([^: ]+):$", emoji_candidate)) and (
+            unicode_emoji := name_to_emoji.get(match.group(1).replace(":", ""))
+        ):
             self.emoji = unicode_emoji
             self.option = text.strip()
         else:
