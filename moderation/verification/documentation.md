@@ -47,7 +47,7 @@ Required permissions:
 
 ### `password`
 
-The `password` subcommand sets the *secret* password the user will need to verify.
+The `password` subcommand sets the *secret* password the user will need to verify with.
 
 ```css
 .verification [password|p] <password>
