@@ -1,6 +1,6 @@
 # Verification
 
-This cog is used to add a verification system that adds or removes certain roles from a user when they send the bot a command with a pre-set password via direct messages.
+This cog is used to add a verification system that adds or removes certain roles from a member when they send the bot a command with a pre-set password via direct messages.
 
 
 ## `verification`
