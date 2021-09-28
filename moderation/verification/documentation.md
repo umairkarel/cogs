@@ -53,7 +53,7 @@ The `password` subcommand sets the *secret* password the user will need to verif
 .verification [password|p] <password>
 ```
 
-Argument | Required            | Description
+Argument|Required|Description
 ---------|---------------------|------------
 `password` | :heavy_check_mark:  | The password as string
 
