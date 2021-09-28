@@ -68,7 +68,7 @@ Required permissions:
 
 ### `delay`
 
-The `delay` subcommand sets the amount of time a user has to be on the server before they can verify.
+The `delay` subcommand sets the amount of time a member has to be in the server before they can verify.
 
 ```css
 .verification [delay|d] <seconds>
