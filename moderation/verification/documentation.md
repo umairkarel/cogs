@@ -86,7 +86,7 @@ Required permissions:
 
 ## `verify`
 
-The `verify` command is used by server members to verify themselves. If the specified password is correct and the configured delay has elapsed, the configured verification roles will be added or removed from the member.
+The `verify` command is used by server members to verify themselves. If the specified password is correct and the configured delay has elapsed, the configured verification roles will be added to or removed from the member.
 
 ```css
 verify <password>
