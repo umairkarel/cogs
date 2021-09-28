@@ -94,7 +94,7 @@ verify <password>
 
 Argument|Required|Description
 ---------|---------------------|------------
-`password` | :heavy_check_mark:  | The verification password
+`password`|:heavy_check_mark:|The verification password
 
 !!! note
     As this command can only be used in private messages, it does not start with the configured bot prefix! So, for example, if the configured password is `Tr0ub4dor&3` a user would have to send this exact message to the bot to complete verification:
