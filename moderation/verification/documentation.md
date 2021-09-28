@@ -19,7 +19,7 @@ The `add` subcommand adds a verification role. If you set `reverse` to `true`, t
 Argument | Required            | Description
 ---------|---------------------|------------
 `role`|:heavy_check_mark:|The verification role
-`reverse`  |                     | Remove this role instead of adding it to the user.
+`reverse`|       |Remove this role instead of adding it to the user.
 
 Required permissions:
 
