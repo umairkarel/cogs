@@ -93,7 +93,7 @@ verify <password>
 ```
 
 Argument|Required|Description
----------|---------------------|------------
+|:------:|:------:|:----------|
 `password`|:heavy_check_mark:|The verification password
 
 !!! note
