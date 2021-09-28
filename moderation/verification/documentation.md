@@ -76,7 +76,7 @@ The `delay` subcommand sets the amount of time a user has to be on the server be
 
 Argument|Required|Description
 |:------:|:------:|:----------|
-`delay`    | :heavy_check_mark:  | The amount of time in seconds
+`delay`|:heavy_check_mark:|The amount of time in seconds
 
 Required permissions:
 
