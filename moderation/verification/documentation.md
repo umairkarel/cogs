@@ -55,7 +55,7 @@ The `password` subcommand sets the *secret* password the user will need to verif
 
 Argument|Required|Description
 |:------:|:------:|:----------|
-`password` | :heavy_check_mark:  | The password as string
+`password`|:heavy_check_mark:|The password
 
 Required permissions:
 
