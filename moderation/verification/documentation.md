@@ -5,7 +5,7 @@ This cog is used to add a verification system that adds or removes certain roles
 
 ## `verification`
 
-The `.verification` command shows the current verification configuration. This includes the roles that will be added or removed from the user (verification roles), the configured password and the amount of time a user has to be a member of the server before they can verify.
+The `.verification` command shows the current verification configuration. This includes the roles that will be added to or removed from the member (verification roles), the configured password and the amount of time a member has to be in the server before they can verify.
 
 
 ### `add`
