@@ -92,7 +92,7 @@ The `verify` command is used by server members to verify themselves. If the spec
 verify <password>
 ```
 
-Argument | Required            | Description
+Argument|Required|Description
 ---------|---------------------|------------
 `password` | :heavy_check_mark:  | The verification password
 
