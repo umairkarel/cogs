@@ -35,7 +35,7 @@ The `remove` subcommand removes an existing verification role.
 .verification [remove|r|-] <role>
 ```
 
-Argument | Required            | Description
+Argument|Required|Description
 |:------:|:------:|:----------|
 `role`|:heavy_check_mark:|The verification role
 
